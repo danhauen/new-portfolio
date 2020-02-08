@@ -39,6 +39,11 @@ body {
 p {
   line-height: 28px;
   font-size: 15px;
+  
+}
+
+.p-contact {
+  color: whitesmoke;
 }
 
 html {
@@ -200,7 +205,7 @@ h5.subtitle {
 .btn-hero,
 .btn-white:hover {
   color: #fff !important;
-  background: #635CDB;
+  background: #d57442;
 }
 
 .btn-hero:focus {
@@ -215,7 +220,7 @@ h5.subtitle {
 
 .btn-black:hover {
   color: #fff;
-  background: #635CDB;
+  background: #d57442;
 }
 
 .btn-black:focus {
@@ -375,6 +380,7 @@ h5.subtitle {
   left: 0;
   transition: all .5s ease 0s;
   color: #000 !important;
+  border-color: #d57442;
 }
 
 .navbar-expand-lg.trans-navigation .navbar-nav .nav-link,
@@ -405,11 +411,12 @@ h5.subtitle {
 }
 
 .navbar-expand-lg.trans-navigation .navbar-nav .nav-link {
-  color: #fff;
+  color: #d57442;
 }
 
 .trans-navigation {
   background: transparent;
+  border-color: #d57442 !important;
 }
 
 .trans-navigation.header-white {
@@ -421,7 +428,7 @@ h5.subtitle {
 }
 
 .trans-navigation.header-white .navbar-nav a.active {
-  color: #635CDB;
+  color: #d57442;
 }
 
 .navbar-brand img {
@@ -738,14 +745,14 @@ ABOUT PAGE
 /* ========================
 HISTORY MISSION
 ==============================*/
-.img-block img {
+/* .img-block img {
   width: 200px;
 }
 
 /* ========================
 
 ==============================*/
-#section-strategy {
+/* #section-strategy {
   background: url("../images/bg/bg-1.jpg") 50% 50% no-repeat;
   background-size: cover;
 }
@@ -765,7 +772,7 @@ HISTORY MISSION
   color: #635CDB;
   margin-bottom: 15px;
   display: block;
-}
+} */ */
 
 /*--------------------------------
  COUNTER SECTION
@@ -816,12 +823,12 @@ HISTORY MISSION
   background-size: cover;
 }
 
-#service-head {
+#projects-head {
   padding-bottom: 100px;
   padding-top: 90px;
 }
 
-#service-head .section-title {
+#projects-head .section-title {
   color: #fff;
 }
 
@@ -829,12 +836,12 @@ HISTORY MISSION
   color: #fff;
 }
 
-#service {
+#projects {
   margin-top: -100px;
   padding-bottom: 70px;
 }
 
-.service-box .service-img-icon {
+/* .projects-box .service-img-icon {
   width: 100px;
   height: 100px;
   text-align: center;
@@ -846,7 +853,7 @@ HISTORY MISSION
   background: #635CDB;
   border: 1px solid rgba(255, 255, 255, 0.2);
   color: #fff;
-}
+} */
 
 .service-box {
   margin-bottom: 40px;
@@ -872,26 +879,26 @@ HISTORY MISSION
 }
 
 /* ================================
-SERVICE PAGE
+PROJECTS PAGE
 ==============================*/
 .bg-gray {
   background: #f4f4f4;
 }
 
-.service-block-2 {
+.projects-block-2 {
   position: relative;
 }
 
-.service-block-2 h4 {
+.projects-block-2 h4 {
   margin-bottom: 15px;
   line-height: 26px;
 }
 
-.service-block-2 p {
+.projects-block-2 p {
   font-size: 16px;
 }
 
-.service-block-2 span {
+.projects-block-2 span {
   position: absolute;
   content: "";
   font-size: 70px;
@@ -902,13 +909,13 @@ SERVICE PAGE
   margin-top: -15px;
 }
 
-.service-style-two {
+.projects-style-two {
   background: url("../images/bg/bg-2.jpg") no-repeat;
   background-size: cover;
   position: relative;
 }
 
-.service-style-two:before {
+.projects-style-two:before {
   position: absolute;
   content: "";
   left: 0px;
@@ -920,6 +927,66 @@ SERVICE PAGE
 
 .heading {
   margin-bottom: 70px;
+}
+
+
+/* Projects picture links */
+/* DEMO 4 ============================== */
+.hover-4 img {
+  width: 110%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.hover-4 .hover-overlay {
+  background: rgba(0, 0, 0, 0.4);
+  z-index: 90;
+}
+
+.hover-4-title {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  padding: 3rem;
+  z-index: 99;
+}
+
+.hover-4-description {
+  position: absolute;
+  top: 2rem;
+  left: 2rem;
+  text-align: right;
+  border-right: 3px solid #fff;
+  padding: 0 1rem;
+  z-index: 99;
+  transform: translateX(-1.5rem);
+  opacity: 0;
+  transition: all 0.3s;
+}
+
+@media (min-width: 992px) {
+  .hover-4-description {
+    width: 50%;
+  }
+}
+
+.hover-4:hover img {
+  width: 100%;
+}
+
+.hover-4:hover::after {
+  opacity: 1;
+  transform: none;
+}
+
+.hover-4:hover .hover-4-description {
+  opacity: 1;
+  transform: none;
+}
+
+.hover-4:hover .hover-overlay {
+  background: rgba(0, 0, 0, 0.8);
 }
 
 
@@ -936,10 +1003,10 @@ SERVICE PAGE
   background: #fff;
 }
 
-/*------------------------------------
+/* /*------------------------------------
   TESTIMONIAL AREA SECTION
 ---------------------------------*/
-.author-img img {
+/* .author-img img {
   width: 100px;
   height: 100px;
   border-radius: 100%;
@@ -1004,7 +1071,7 @@ SERVICE PAGE
 
 .testimonial-content p i {
   margin: 0px 8px;
-}
+} */ */
 
 /*--------------------------
  CONTACT SECTION AREA
@@ -1068,7 +1135,7 @@ input[type=text], input[type=email] {
 /*--------------------------
  BLOG SECTION AREA
 ----------------------*/
-#blog {
+/* #blog {
   padding-bottom: 55px;
 }
 
@@ -1097,12 +1164,12 @@ input[type=text], input[type=email] {
 .blog-block .read-more,
 .blog-block span {
   color: #635CDB;
-}
+} */
 
 /* =================================
 BLOG PAGE
 ===================================*/
-.blog-post {
+/* .blog-post {
   margin-bottom: 50px;
 }
 
@@ -1173,12 +1240,12 @@ BLOG PAGE
 .download a i {
   margin-right: 15px;
   color: #635CDB;
-}
+} */
 
 /* ==================================
 BLOG SINGLE
 =====================================*/
-.quote i {
+/* .quote i {
   font-size: 50px;
   margin-right: 10px;
   position: absolute;
@@ -1197,7 +1264,7 @@ BLOG SINGLE
 .comments img {
   width: 80px;
   height: 80px;
-}
+} */
 
 /*--------------------------
  FOOTER
@@ -1221,12 +1288,12 @@ BLOG SINGLE
   margin-bottom: 20px;
 }
 
-.footer-widget h4 span {
+/* .footer-widget h4 span {
   color: #635CDB;
   display: block;
   font-size: 60px;
   line-height: 60px;
-}
+} */
 
 .footer-blog li img {
   width: 70px;
@@ -1252,9 +1319,10 @@ BLOG SINGLE
 
 .footer-copy {
   letter-spacing: 1px;
-  padding-top: 30px;
-  margin-top: 30px;
-  border-top: 1px solid #eee;
+  padding-top: 20px;
+  margin-top: 0px;
+  border-top: 2px solid #d57442;
+  background-color: black;
 }
 
 .footer-text h6 {
@@ -1262,20 +1330,16 @@ BLOG SINGLE
 }
 
 .footer-text p span {
-  color: #000;
+  color: whitesmoke;
 }
 
-.footer-text p.mail {
-  color: #635CDB;
-}
+/* .bg-main {
+  background: #d57442;
+} */
 
-.bg-main {
-  background: #F4F8FB;
-}
-
-.footer-widget a {
+/* .footer-widget a {
   color: #999;
-}
+} */
 
 /*-------------------------------
  RESPONSIVE LAYOUT
@@ -1302,6 +1366,7 @@ BLOG SINGLE
   .navbar-expand-lg.trans-navigation .navbar-nav .nav-link {
     margin-bottom: 10px;
   }
+
   /*----------------------
      SECTION HEAINDG
     -----------------------*/
@@ -1343,7 +1408,7 @@ BLOG SINGLE
   /*--------------
      BLOG
     ----------------*/
-  .blog-text {
+  /* .blog-text {
     padding: 0px;
     margin-top: 10px;
   }
@@ -1355,13 +1420,13 @@ BLOG SINGLE
   }
   .pricing-block {
     margin-bottom: 30px;
-  }
+  } */
   /*--------------
      FOOTER
     ----------------*/
-  .footer-widget {
+  /* .footer-widget {
     margin-bottom: 30px;
-  }
+  } */
 }
 
 /*Small devices (landscape phones, 576px and up)*/
