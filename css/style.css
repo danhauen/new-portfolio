@@ -73,7 +73,7 @@ h6, .h6 {
 a {
   text-decoration: none;
   transition: all 0.2s;
-  color: whitesmoke;
+  color: black;
 }
 
 img {
@@ -191,8 +191,8 @@ h5.subtitle {
 .btn:focus,
 .btn:active,
 .btn:active:focus {
-  outline: none;
-  box-shadow: none;
+  outline: #d57442;
+  box-shadow: #d57442;
 }
 
 .btn-hero,
@@ -507,19 +507,6 @@ h5.subtitle {
   line-height: 50px;
 }
 
-.banner-content .subtitle {
-  color: #fff;
-  background: #635CDB;
-  display: inline-block;
-  padding: 3px 8px;
-  margin-bottom: 20px;
-  text-transform: uppercase;
-}
-
-.subtitle {
-  color: #635CDB;
-}
-
 .banner-content p {
   margin: 20px 0px;
   color: #eee;
@@ -729,7 +716,7 @@ ABOUT PAGE
 }
 
 #counter {
-  background: url("../images/banner/pattern-3.png") fixed 50% 50%;
+  background: url("images/banner/banner-bg.jpg") fixed 50% 50%;
   position: relative;
   background-size: cover;
   padding-top: 87px;
@@ -746,7 +733,7 @@ ABOUT PAGE
 }
 
 #projects-head .section-title {
-  color: #fff;
+  color: black;
 }
 
 .text-white p {
@@ -798,7 +785,7 @@ ABOUT PAGE
   text-align: center;
   cursor: default;
 }
-.hovereffect .overlay {
+.hovereffect .project-overlay {
   width: 100%;
   position: absolute;
   overflow: hidden;
@@ -886,7 +873,7 @@ speak: none;
 }
 
 
-.hovereffect:hover .overlay,
+.hovereffect:hover .project-overlay,
 .hovereffect:hover h2,
 .hovereffect:hover p.icon-links a {
 -webkit-transform: translate3d(0,0,0);
@@ -912,7 +899,6 @@ transition-delay: 0.15s;
 -webkit-transition-delay: 0.2s;
 transition-delay: 0.2s;
 }
-
 /*--------------------------
  CONTACT SECTION AREA
 ----------------------*/
