@@ -105,6 +105,10 @@ h2 {
   font-size: 36px;
 }
 
+.btn-h2 {
+  color: #eee;
+}
+
 h3 {
   font-size: 28px;
   line-height: 38px;
@@ -790,25 +794,25 @@ ABOUT PAGE
   position: absolute;
   overflow: hidden;
   left: 0;
-top: auto;
-bottom: 0;
-padding: 1em;
-height: 4.75em;
-background: #79FAC4;
-color: #3c4a50;
--webkit-transition: -webkit-transform 0.35s;
-transition: transform 0.35s;
--webkit-transform: translate3d(0,100%,0);
-transform: translate3d(0,100%,0);
-visibility: hidden;
+  top: auto;
+  bottom: 0;
+  padding: 1em;
+  height: 4.75em;
+  background: #d57442;
+  color: #3c4a50;
+  -webkit-transition: -webkit-transform 0.35s;
+  transition: transform 0.35s;
+  -webkit-transform: translate3d(0,100%,0);
+  transform: translate3d(0,100%,0);
+
 
 }
 
 .hovereffect img {
   display: block;
   position: relative;
--webkit-transition: -webkit-transform 0.35s;
-transition: transform 0.35s;
+  -webkit-transition: -webkit-transform 0.35s;
+  transition: transform 0.35s;
 }
 
 .hovereffect:hover img {
@@ -818,27 +822,27 @@ transform: translate3d(0,-10%,0);
 
 .hovereffect h2 {
   text-transform: uppercase;
-  color: #fff;
+  color: #fff !important;
   text-align: center;
   position: relative;
   font-size: 17px;
   padding: 10px;
-  background: rgba(0, 0, 0, 0.6);
-float: left;
-margin: 0px;
-display: inline-block;
-}
+  background: rgba(245, 245, 245, 0.993);
+  float: left;
+  margin: 0px;
+  display: inline-block;
+  }
 
 .hovereffect a.info {
   display: inline-block;
   text-decoration: none;
   padding: 7px 14px;
   text-transform: uppercase;
-color: #fff;
-border: 1px solid #fff;
-margin: 50px 0 0 0;
-background-color: transparent;
-}
+  color: #fff;
+  border: 1px solid #fff;
+  margin: 50px 0 0 0;
+  background-color: transparent;
+  }
 .hovereffect a.info:hover {
   box-shadow: 0 0 5px #fff;
 }
