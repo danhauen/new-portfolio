@@ -14,9 +14,7 @@ Version      : 1.0
     -LOGO CSS
     -MENU CSS
 * 04.ABOUT CSS STYLE
-* 05.SERVICE CSS STYLE
-* 06.WORK CSS STYLE
-* 07.AVAILABLE CSS STYLE
+* 05.PROJECT CSS STYLE
 * 08.CONTACT CSS STYLE
 * 09.FOOTER CSS STYLE
 * ----------------------------------------------------------------------------------------
@@ -39,7 +37,6 @@ body {
 p {
   line-height: 28px;
   font-size: 15px;
-  
 }
 
 .p-contact {
@@ -129,7 +126,7 @@ h6 {
 }
 
 .f-color {
-  color: #635CDB;
+  color:
 }
 
 h5.subtitle {
@@ -165,10 +162,6 @@ h5.subtitle {
   margin-bottom: 15px;
   text-transform: capitalize;
 }
-
-/* .section-title span {
-  color: #635CDB;
-} */
 
 .section {
   padding: 100px 0px;
@@ -279,10 +272,6 @@ h5.subtitle {
   border-radius: 40px;
 }
 
-.btn-trans-black:hover {
-  background: #635CDB !important;
-}
-
 /*---------- COLORS ----------*/
 /*-- Background Colors --*/
 .bg-black {
@@ -291,14 +280,6 @@ h5.subtitle {
 
 .bg-dark {
   background-color: rgba(0, 0, 0, 0.96);
-}
-
-.bg-feature {
-  background-color: #635CDB;
-}
-
-.bg-primary {
-  background-color: #0db8ca;
 }
 
 .bg-gray {
@@ -317,28 +298,13 @@ h5.subtitle {
   vertical-align: middle;
 }
 
-.overlay {
+.overlay-header {
   position: absolute;
   top: 0px;
   left: 0px;
   width: 100%;
   height: 100%;
   background: rgba(0, 0, 0, 0.5);
-}
-
-.brown-overlay {
-  background: #222955;
-  opacity: .97;
-}
-
-.feature-overlay {
-  background: #635CDB;
-  opacity: .97;
-}
-
-.gr-overlay {
-  background: linear-gradient(135deg, #2f1ce0 0%, #53a0fd 30%, #51eca5 100%);
-  opacity: .87;
 }
 
 /* ========================
@@ -519,7 +485,7 @@ h5.subtitle {
 /*------------------------------------
  BANNER AREA
 ----------------------------------*/
-.banner-area .content-padding {
+ .banner-area .content-padding {
   padding: 250px 0px 180px;
 }
 
@@ -569,18 +535,6 @@ h5.subtitle {
   padding: 10px 30px;
 }
 
-.banner-1 {
-  background: url("../images/banner/bg-2.jpg");
-  background-size: cover;
-  position: relative;
-}
-
-.banner-2 {
-  background: url("../images/banner/slider-3.jpg");
-  background-size: cover;
-  position: relative;
-}
-
 .banner-3 {
   background: url("../images/banner/banner-bg.jpg");
   background-size: cover;
@@ -600,10 +554,11 @@ INner Pages
   padding: 60px 0px 80px;
 }
 
+/* Header picture*/
 .page-banner-area {
   background: url("../images/banner/1.jpg") no-repeat 50% 50%;
   background-size: cover;
-}
+} 
 
 /*-------------------- ------------
  INTRO SECTION
@@ -718,7 +673,7 @@ ABOUT PAGE
 -------------------------*/
 .about-list2 li i {
   margin-right: 10px;
-  color: #635CDB;
+  color: #d57442;
 }
 
 .icon-3x {
@@ -739,38 +694,6 @@ ABOUT PAGE
   padding-top: 3px;
   background: #fff;
 }
-
-/* ========================
-HISTORY MISSION
-==============================*/
-/* .img-block img {
-  width: 200px;
-}
-
-/* ========================
-
-==============================*/
-/* #section-strategy {
-  background: url("../images/bg/bg-1.jpg") 50% 50% no-repeat;
-  background-size: cover;
-}
-
-.strategy-text {
-  margin-bottom: 50px;
-}
-
-.strategy-text h4 {
-  font-size: 18px;
-  margin-bottom: 10px;
-  font-weight: 600;
-}
-
-.strategy-text span {
-  font-size: 61px;
-  color: #635CDB;
-  margin-bottom: 15px;
-  display: block;
-} */ */
 
 /*--------------------------------
  COUNTER SECTION
@@ -814,12 +737,8 @@ HISTORY MISSION
 }
 
 /*--------------------------
-  SERVICE AREA SECTION
+  PROJECTS AREA SECTION
 ----------------------*/
-.page-banner-area.page-service {
-  background: url("../images/bg/bg-2.jpg") no-repeat;
-  background-size: cover;
-}
 
 #projects-head {
   padding-bottom: 100px;
@@ -837,50 +756,6 @@ HISTORY MISSION
 #projects {
   margin-top: -100px;
   padding-bottom: 70px;
-}
-
-/* .projects-box .service-img-icon {
-  width: 100px;
-  height: 100px;
-  text-align: center;
-  background: #fff;
-  padding-top: 20px;
-  margin: 0 auto;
-  border-radius: 100%;
-  margin-bottom: 20px;
-  background: #635CDB;
-  border: 1px solid rgba(255, 255, 255, 0.2);
-  color: #fff;
-} */
-
-.service-box {
-  margin-bottom: 40px;
-  background: #fff;
-  text-align: center;
-  padding: 45px 25px 30px 25px;
-  border: 1px solid transparent;
-  transition: all .3s ease 0s;
-  border-radius: 5px;
-  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
-}
-
-.service-inner {
-  margin-top: 30px;
-}
-
-.service-inner h4 {
-  margin-bottom: 20px;
-}
-
-.service-inner span {
-  color: #635CDB;
-}
-
-/* ================================
-PROJECTS PAGE
-==============================*/
-.bg-gray {
-  background: #f4f4f4;
 }
 
 .projects-block-2 {
@@ -907,31 +782,12 @@ PROJECTS PAGE
   margin-top: -15px;
 }
 
-.projects-style-two {
-  background: url("../images/bg/bg-2.jpg") no-repeat;
-  background-size: cover;
-  position: relative;
-}
-
-.projects-style-two:before {
-  position: absolute;
-  content: "";
-  left: 0px;
-  top: 0px;
-  height: 100%;
-  width: 100%;
-  background: rgba(0, 0, 0, 0.6);
-}
-
 .heading {
   margin-bottom: 70px;
 }
 
 
 /* Projects picture links */
-/* .project-row {
-  height: 250px;
-} */
 
 .hovereffect {
   width: 100%;
@@ -1056,88 +912,6 @@ transition-delay: 0.15s;
 -webkit-transition-delay: 0.2s;
 transition-delay: 0.2s;
 }
-/*------------------------------------
-  CLIENT PARTNER AREA SECTION
---------------------------------*/
-#clients {
-  padding-top: 75px;
-  padding-bottom: 80px;
-  position: relative;
-}
-
-.client-img {
-  background: #fff;
-}
-
-/* /*------------------------------------
-  TESTIMONIAL AREA SECTION
----------------------------------*/
-/* .author-img img {
-  width: 100px;
-  height: 100px;
-  border-radius: 100%;
-  border: 5px solid #ddd;
-}
-
-.author-info p {
-  margin: 0px;
-  font-size: 14px;
-}
-
-.carousel-indicators {
-  bottom: 0px;
-  margin-bottom: 0px;
-}
-
-.carousel-indicators li {
-  background: #111;
-  width: 10px;
-  height: 10px;
-  border-radius: 100%;
-}
-
-.carousel-indicators li.active {
-  background: #635CDB;
-}
-
-.testimonial-content {
-  padding: 0px 40px;
-  text-align: center;
-  margin-bottom: 40px;
-}
-
-.testimonial-content .author-text {
-  padding-top: 10px;
-}
-
-.testimonial-content .author-info {
-  display: block;
-  margin-bottom: 25px;
-}
-
-.testimonial-content p {
-  font-size: 20px;
-  line-height: 36px;
-  color: #222;
-  margin: 35px 0px;
-  display: block;
-}
-
-.author-text h5 {
-  text-transform: uppercase;
-}
-
-.author-text p {
-  font-size: 14px;
-  line-height: 20px;
-  margin-bottom: 36px;
-  color: #888;
-  margin: 0px;
-}
-
-.testimonial-content p i {
-  margin: 0px 8px;
-} */ */
 
 /*--------------------------
  CONTACT SECTION AREA
@@ -1196,150 +970,13 @@ input[type=text], input[type=email] {
   padding-left: 10px;
 }
 
-
-
-/*--------------------------
- BLOG SECTION AREA
-----------------------*/
-/* #blog {
-  padding-bottom: 55px;
-}
-
-.blog-block {
-  overflow: hidden;
-  transition: all .3s ease 0s;
-}
-
-.blog-block img {
-  margin-bottom: 10px;
-}
-
-.blog-text {
-  padding: 20px;
-}
-
-.blog-text .author-name {
-  font-weight: 400;
-}
-
-.blog-text .author-name span {
-  margin-right: 10px;
-  font-weight: 600;
-}
-
-.blog-block .read-more,
-.blog-block span {
-  color: #635CDB;
-} */
-
-/* =================================
-BLOG PAGE
-===================================*/
-/* .blog-post {
-  margin-bottom: 50px;
-}
-
-.blog-post img {
-  border-radius: 5px;
-}
-
-.blog-post .post-author i,
-.blog-post .post-info i {
-  margin-right: 5px;
-  font-size: 14px;
-}
-
-.blog-post .post-author span, .blog-post .post-info span {
-  font-size: 14px;
-}
-
-.sidebar-widget {
-  margin-bottom: 40px;
-  padding-left: 20px;
-}
-
-.category ul li {
-  margin-bottom: 10px;
-  text-transform: capitalize;
-  position: relative;
-  padding-left: 20px;
-  border-bottom: 1px solid #eee;
-  padding-bottom: 10px;
-}
-
-.category ul li:before {
-  position: absolute;
-  content: "\f105";
-  left: 0px;
-  top: 0px;
-  font-family: "Font Awesome 5 Free";
-  color: #635CDB;
-  font-weight: 900;
-}
-
-.tag a {
-  text-transform: capitalize;
-  padding: 5px 8px;
-  border: 1px solid #eee;
-  margin-bottom: 5px;
-  font-size: 14px;
-  display: inline-block;
-}
-
-.search i {
-  position: absolute;
-  right: 0px;
-  top: 0px;
-  margin-right: 35px;
-  margin-top: 15px;
-  color: #635CDB;
-}
-
-.download a {
-  display: block;
-  padding: 12px 20px;
-  border: 1px solid #eee;
-  margin-bottom: 10px;
-  background: #f2f2f2;
-}
-
-.download a i {
-  margin-right: 15px;
-  color: #635CDB;
-} */
-
-/* ==================================
-BLOG SINGLE
-=====================================*/
-/* .quote i {
-  font-size: 50px;
-  margin-right: 10px;
-  position: absolute;
-  left: 0px;
-}
-
-.quote {
-  font-size: 18px;
-  line-height: 32px;
-  color: #222;
-  position: relative;
-  margin: 50px 0px;
-  padding-left: 70px;
-}
-
-.comments img {
-  width: 80px;
-  height: 80px;
-} */
-
 /*--------------------------
  FOOTER
 ----------------------*/
 #footer {
   padding-bottom: 60px;
   position: relative;
-  background: url("../images/bg/2.png");
-  border-top: 1px solid #eee;
+  border-top: 1px solid #d57442;
 }
 
 .footer-widget ul li {
@@ -1375,19 +1012,11 @@ BLOG SINGLE
   text-transform: capitalize;
 }
 
-.footer-blog li a.read-more {
-  font-size: 13px;
-}
-
-.footer-blog li {
-  margin-bottom: 15px;
-}
-
 .footer-copy {
   letter-spacing: 1px;
   padding-top: 20px;
   margin-top: 0px;
-  border-top: 2px solid #d57442;
+  border-top: 3px solid #d57442;
   background-color: black;
 }
 
@@ -1399,13 +1028,13 @@ BLOG SINGLE
   color: whitesmoke;
 }
 
-/* .bg-main {
+.bg-main {
   background: #d57442;
-} */
+}
 
-/* .footer-widget a {
+.footer-widget a {
   color: #999;
-} */
+}
 
 /*-------------------------------
  RESPONSIVE LAYOUT
@@ -1474,7 +1103,7 @@ BLOG SINGLE
   /*--------------
      BLOG
     ----------------*/
-  /* .blog-text {
+  .blog-text {
     padding: 0px;
     margin-top: 10px;
   }
@@ -1486,13 +1115,13 @@ BLOG SINGLE
   }
   .pricing-block {
     margin-bottom: 30px;
-  } */
+  }
   /*--------------
      FOOTER
     ----------------*/
-  /* .footer-widget {
+  .footer-widget {
     margin-bottom: 30px;
-  } */
+  }
 }
 
 /*Small devices (landscape phones, 576px and up)*/
@@ -1535,12 +1164,6 @@ BLOG SINGLE
   #about {
     padding-bottom: 40px;
   }
-  /*-------------------
-     TESTIMONIAL
-    -------------------*/
-  .testimonial-content {
-    padding: 10px;
-  }
   /*--------------
      COUNTER
     ----------------*/
@@ -1570,12 +1193,6 @@ BLOG SINGLE
   .intro-box {
     margin-top: 0px;
     margin-bottom: 40px;
-  }
-  /*--------------
-     CLIENT
-    --------------*/
-  .client-img {
-    text-align: center;
   }
   /*--------------
      FOOTER
@@ -1669,12 +1286,6 @@ BLOG SINGLE
   .service-block {
     margin-bottom: 20px;
   }
-  /*-------------------
-     TESTIMONIAL
-    -------------------*/
-  .testimonial-content {
-    padding: 10px;
-  }
   /*--------------
      COUNTER
     ----------------*/
@@ -1698,12 +1309,6 @@ BLOG SINGLE
   }
   .blog-text p {
     font-size: 14px;
-  }
-  /*--------------
-     CLIENT
-    --------------*/
-  .client-img {
-    text-align: center;
   }
   /*--------------
      FOOTER
