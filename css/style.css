@@ -37,10 +37,11 @@ body {
 p {
   line-height: 28px;
   font-size: 15px;
+  color: #000;
 }
 
 .p-contact {
-  color: whitesmoke;
+  color: black;
 }
 
 html {
